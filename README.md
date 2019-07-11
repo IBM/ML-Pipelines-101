@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/IBM/ML-Pipelines-101/master/notebooks/tutorial
 
 #### 2.3. End to End ML Pipeline with Gender Classification
 In [this notebook](notebooks/ml-pipeline.ipynb) we will create an End to End Machine Learning Pipeline that preprocesses the data and trains the PyTorch Gender Classification model. Then, it applies the fast gradient attack
-and AIF360 bias detection to generate metrics for this model to evaluate its robustness and fairness. Finally, it will deploy the model 
+and AIF360 bias detection that generate metrics for this model to evaluate its robustness and fairness. Finally, it deploys the model 
 using KFServing which leverages KNative in the background to serve models in a serverless environment.
 
 If you are using Watson Studio, you can load this notebook with the below URL link.
@@ -45,3 +45,6 @@ If you are using Watson Studio, you can load this notebook with the below URL li
 https://raw.githubusercontent.com/IBM/ML-Pipelines-101/master/notebooks/ml-pipeline.ipynb
 ```
 
+## Troubleshooting
+
+- With a Watson Studio lite account, there are 
