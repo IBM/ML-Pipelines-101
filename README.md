@@ -10,7 +10,16 @@ Animesh Singh, Svetlana Levitan, and Tommy Li demonstrate how to build an ML pip
 
 ## Instructions
 ### 1. Create a Jupyter notebook on Watson Studio or on the local machine
-To start with this tutorial, we need to first get an instant of Jupyter notebook running either on the Cloud using Watson Studio or on the local machine. To set it up on Watson Studio, visit the [Watson Studio tutorial](https://github.com/IBM/pytorch-on-watson-studio) and follow all the steps to learn about how to create a Notebook on Watson Studio and use it to train with the MNIST PyTorch Model.
+To start with this tutorial, we need to first get an instant of Jupyter notebook running either on the Cloud using Watson Studio or on the local machine. 
+
+* To set it up on Watson Studio, visit the [Watson Studio tutorial](https://github.com/IBM/pytorch-on-watson-studio) and follow all the steps to learn about how to create a Notebook on Watson Studio and use it to train with the MNIST PyTorch Model.
+
+* To run it on local Machine, clone this repository and start a local Jupyter Server.
+```
+git clone https://github.com/IBM/ML-Pipelines-101.git
+cd ML-Pipelines-101
+jupyter notebook
+```
 
 ### 2. Run the ART, AIF360, ML Pipeline Notebook
 We will be going over the following three Jupyter notebooks. The first two notebooks will 
@@ -44,7 +53,3 @@ If you are using Watson Studio, you can load this notebook with the below URL li
 ```shell
 https://raw.githubusercontent.com/IBM/ML-Pipelines-101/master/notebooks/ml-pipeline.ipynb
 ```
-
-## Troubleshooting
-
-- With a Watson Studio lite account, there are 
