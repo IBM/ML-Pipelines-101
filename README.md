@@ -69,6 +69,6 @@ You can load this notebook into Watson Studio with the below URL link.
 https://raw.githubusercontent.com/IBM/Trusted-ML-Pipelines/master/notebooks/ml-pipeline.ipynb
 ```
 
-### 3. (Optional) Trying out advanced deep learning models
+### 3. (Optional) Advanced deep learning models for app developers
 If you are interested in how to create and use open source deep learning models for app developers, you can use the below workshop to learn more about how to wrap models into container, using TensorFlowJS and NodeRed.
 https://github.com/CODAIT/max-workshop-oscon-2019
